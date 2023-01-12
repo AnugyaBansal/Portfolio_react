@@ -7,7 +7,6 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Project from "./routes/Project";
 import { Route, Routes } from "react-router-dom"; //import file and folder here
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
