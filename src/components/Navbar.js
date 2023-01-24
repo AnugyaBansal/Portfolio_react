@@ -4,6 +4,7 @@ import "./NavbarStyles.css"
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"  // category name is Fa and icons name is Bars
+
 const Navbar = () => {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)

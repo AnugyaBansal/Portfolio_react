@@ -14,7 +14,7 @@ function App() {
     {/* <Navbar/> */}
     <Routes>
     {/* call routers here using react router Dom */}
-    <Route exact path="/" element={<Home/>} />   {/* call router here this path is shown url with this name in search bar of page when we click on that page and for home use only / for part */}
+    <Route path="/" element={<Home/>} />   {/* call router here this path is shown url with this name in search bar of page when we click on that page and for home use only / for part */}
     <Route path="/project" element={<Project/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />

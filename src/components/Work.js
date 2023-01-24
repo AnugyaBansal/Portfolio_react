@@ -13,8 +13,10 @@ const Work = () => {
                     <WorkCard key={ind}
                     pc={val.imgsrc}
                     title={val.title}
+                    tech_stacks={val.tech_stack}
                     text={val.text}
                     view={val.view}
+                    source={val.source}
                     />
                     
                 )
